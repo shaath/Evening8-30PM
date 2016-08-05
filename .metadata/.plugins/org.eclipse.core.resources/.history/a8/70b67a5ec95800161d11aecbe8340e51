@@ -1,0 +1,13 @@
+package pom;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.PageFactory;
+
+public class constants
+{
+	WebDriver driver;
+	loginPage lp=PageFactory.initElements(driver, loginPage.class);
+	adminPage ap=PageFactory.initElements(driver, adminPage.class);
+
+}

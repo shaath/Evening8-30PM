@@ -1,0 +1,13 @@
+package mvnselenium;
+
+import org.testng.annotations.Test;
+
+public class launch 
+{
+	@Test
+	public void orglaunch()
+	{
+		
+	}
+
+}

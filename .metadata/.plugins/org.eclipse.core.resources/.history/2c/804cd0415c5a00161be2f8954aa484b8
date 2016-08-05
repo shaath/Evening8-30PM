@@ -1,0 +1,16 @@
+package mvnselenium;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
+
+public class launch 
+{
+	@Test
+	public void orglaunch()
+	{
+		WebDriver driver=new FirefoxDriver();
+		driver.get("http://gmail.com");
+	}
+
+}
